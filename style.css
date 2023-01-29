@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+body {
+		height: 200vh;
+		font-family: 'Lora', serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+
+	background: linear-gradient(50deg, rgba(0,0,0,1) 20%, rgba(209, 8, 8, 0.995) 50%, rgba(0,0,0,1) 80%);
+}
+
+h2 {
+	color:  whitesmoke;
+	font-size: x-large;
+}
+
+h4 {
+
+	font-family: monospace;
+}
+
+.button {
+	padding: 5px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 1px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: rgba(250, 19, 19, 0.995);
+	border-radius: 12px;
+}
+
+.form-style {
+	color: #fff;
+}
